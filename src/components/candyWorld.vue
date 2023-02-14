@@ -11,9 +11,7 @@
       <v-container>
         <div class="posts">
           <v-btn @click="addCandy">Post Candies</v-btn>
-          <v-col>
-            <v-text-field v-model="candyTitle" type="text"></v-text-field>
-          </v-col>
+          <v-text-field v-model="candyTitle" type="text"></v-text-field>
           <v-text-field v-model="candyBody" type="text"></v-text-field>
         </div>
       </v-container>
